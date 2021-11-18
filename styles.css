@@ -37,6 +37,7 @@ header {
     background-color: #00aaff;
     padding: 0.5em;
     margin-left: 0.25em;
+    cursor: pointer;
 }
 
 .todo-list {
