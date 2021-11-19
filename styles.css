@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-radius: 25px;
 }
 
 body {
@@ -29,6 +30,7 @@ header {
     width: 80%;
     padding: 0.5em;
     margin-right: 0.25em;
+    border-color: #aaa;
 }
 
 .create-btn {
@@ -38,6 +40,7 @@ header {
     padding: 0.5em;
     margin-left: 0.25em;
     cursor: pointer;
+    border-color: transparent;
 }
 
 .todo-list {
@@ -65,13 +68,17 @@ header {
     flex: 1;
 }
 
+span {
+    height: 1.5rem;
+}
+
 .complete-btn, .delete-btn {
     cursor: pointer;
     height: 1.5rem;
     margin: 0 0.1em;
 }
 
-.complete-btn img, .delete-btn img{
+.complete-btn img, .delete-btn img {
     height: 1.5rem;
 }
 
@@ -79,4 +86,19 @@ header {
     text-decoration: line-through;
     filter: brightness(0.5);
     transform: scale(0.9);
+}
+
+/* Small Devices */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium Devices */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large Devices */
+@media only screen and (min-width: 992px) {
+
 }
